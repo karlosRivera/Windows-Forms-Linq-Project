@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EMPRESA" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WINDOWS-AL9HJAG;Initial Catalog=EMPRESA;Integrated Security=True" SettingsObjectName="LinqCRUD.Properties.Settings" SettingsPropertyName="EMPRESAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.empleado" Member="empleados">
+    <Type Name="empleado">
+      <Column Name="idempleado" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="apellido" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="tipo_documento" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="sexo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="direccion" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="telefono" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="numero_documento" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="departamento" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fecha_nacimiento" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
