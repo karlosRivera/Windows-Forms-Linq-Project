@@ -1,5 +1,4 @@
 ﻿using LinqCRUD.DataAccessLayer;
-using LinqCRUD.DataAccessLayer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -92,7 +91,7 @@ namespace LinqCRUD.BusinessLayer
 
         public bool Delete(string id)
         {
-            var result = true;
+            var result = false;
             if (!string.IsNullOrEmpty(id))
             {
                 int idemp = Convert.ToInt32(id);

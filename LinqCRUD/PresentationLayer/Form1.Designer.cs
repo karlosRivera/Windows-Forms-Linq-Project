@@ -446,7 +446,7 @@
             // dtFechaNac
             // 
             this.dtFechaNac.Location = new System.Drawing.Point(637, 48);
-            this.dtFechaNac.MinimumSize = new System.Drawing.Size(0, 29);
+            this.dtFechaNac.MinimumSize = new System.Drawing.Size(4, 29);
             this.dtFechaNac.Name = "dtFechaNac";
             this.dtFechaNac.Size = new System.Drawing.Size(206, 29);
             this.dtFechaNac.TabIndex = 19;

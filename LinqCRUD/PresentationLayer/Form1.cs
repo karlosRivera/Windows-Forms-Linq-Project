@@ -35,12 +35,10 @@ namespace LinqCRUD
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void GetMessageError(string mensaje)
@@ -152,7 +150,6 @@ namespace LinqCRUD
                      , txtEmail.Text
                      , cbDepartamento.Text
                      );
-
                 }
 
                 if (result)
@@ -184,6 +181,7 @@ namespace LinqCRUD
                 MessageBox.Show("Debe buscar por nombre del documento o empleado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         void populate(empleado cl)
         {
